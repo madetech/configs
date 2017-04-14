@@ -94,5 +94,5 @@ if empty(glob('~/.local/share/nvim/site/autoload/plug.vim'))
   autocmd VimEnter * PlugInstall
 endif
 " }}}
-call plug#begin('~/.nvim/plugged') " Plugins initialization start {{{
-" }}}
+call plug#begin('~/.nvim/plugged') " Plugins initialization start
+call plug#end() " Plugins initialization end
