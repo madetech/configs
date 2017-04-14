@@ -96,3 +96,14 @@ endif
 " }}}
 call plug#begin('~/.nvim/plugged') " Plugins initialization start
 call plug#end() " Plugins initialization end
+
+" ================ Shortcuts ========================
+
+" space-space cycles between last two files
+nnoremap <leader><leader> <c-^>
+
+" Quicker window movement.
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+nnoremap <C-h> <C-w>h
