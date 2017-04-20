@@ -58,7 +58,7 @@ set nofoldenable
 filetype plugin indent on
 
 " Display tabs and trailing spaces visually
-set list listchars=tab:\ \ ,trail:·
+set list listchars=tab:»·,trail:·,nbsp:·
 
 " set nowrap       "Don't wrap lines
 set linebreak    "Wrap lines at convenient points
