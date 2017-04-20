@@ -26,6 +26,7 @@ set showcmd                     "Show incomplete cmds down the bottom
 set showmode                    "Show current mode down the bottom
 set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
+set autowrite                   "Automatically :write before runnning commands
 set clipboard=unnamedplus
 
 " This makes vim act like all other editors, buffers can
